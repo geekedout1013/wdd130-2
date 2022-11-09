@@ -1,0 +1,121 @@
+@import url(‘https://fonts.googleapis.com/css?family=Poppins’);
+nav a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+#hero-msg h1, #hero-msg h4{
+    text-align: center;
+    font-family:'Poppins', sans-serif;
+}
+.button-box{
+    text-align: center;
+}
+main section{
+    text-align: center;
+}
+ div id{
+    max-width: 1600px;
+    margin: 0 auto;
+} 
+ body{
+    background-color: #5f9ea0;
+    font-family:'Poppins', 'Quicksand', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+ }
+h2{
+    margin: 0;
+}
+
+ header{
+    background-color: #ff7f50;
+}
+nav a:hover{
+    background-color: black;
+    color: #696969;
+}
+
+.home-title{
+    color: #008b8b;
+    font-family: 'Architects Daughter', 'Quicksand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+h4{
+    color: #742d11;
+}
+.book, .join{
+    background-color: #025555;
+    color: rgb(236, 230, 230);
+     text-decoration: none;
+     font-size: 20px;
+     padding: 15px 30px;
+     margin-top: 50px;
+     box-sizing: border-box;
+     border-radius: 5px;
+
+}
+.book:hover, .join:hover{
+    background-color: #9fe9f3;
+    color: #2b2a2a;
+
+}
+.msg h2{
+    color: #052958;
+}
+.msg p{
+    color: #052958;
+    font-size: 1em;
+    padding-bottom: 15px;
+
+}
+footer{
+    color: #5f9ea0;
+    padding: 25px 50px;
+}
+footer a{
+    color: #0659b8;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #442020;
+}
+.icon{
+    width: 80px;
+    padding-top: 10px
+}
+.logo{
+    height: 80px;
+    width: 80px;
+    border: 5px solid #008b8b;
+    border-radius: 50%;
+}
+#hero-img{
+    width: 100%;
+}
+footer p{
+    font-size: 1.2em ;
+}
+footer p a:hover{
+    text-decoration: underline;
+}
+.msg{
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+#logo_link{
+    padding-top: 5px; 
+}
+    footer.social img{ padding-top: 15px;
+    }
+.card-img{
+    border: 10px solid #d9c2a3
+}
+main section img {
+    box-sizing: border-box;
+}
