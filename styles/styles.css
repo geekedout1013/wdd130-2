@@ -1,14 +1,28 @@
-
 nav a{
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
-#hero-msg h1, #hero-msg h4{
+.nav-buttons{
+    font-family:"Quicksand", sans-serif;
+    
+}
+
+#hero-msg h1, #hero-msg{
     text-align: center;
+    font-family:'Poppins', sans-serif;
+    font-weight: 25px;
+}
+.book{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
 }
 .button-box{
     text-align: center;
+}
+.card-img{
+    margin-top: 25px;
 }
 main section{
     text-align: center;
@@ -19,7 +33,15 @@ main section{
 } 
  body{
     background-color: #5f9ea0;
+    font-family:'Poppins', 'Quicksand', sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+ }
+h2{
+    margin: 0;
 }
+
  header{
     background-color: #ff7f50;
 }
@@ -30,25 +52,45 @@ nav a:hover{
 
 .home-title{
     color: #008b8b;
+    font-family: 'Architects Daughter', 'Quicksand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
-h4{
-    color: #742d11;
+
+#make-memory-tag{
+    font-family:"Quicksand", sans-serif;
+    color: #b43d3d;
+    font-size: 45px;
 }
 .book, .join{
-    color: #008b8b;
+    background-color: #025555;
+    color: rgb(236, 230, 230);
      text-decoration: none;
+     font-family:"Bebas Neue", sans-serif ;
+     font-size: 30px;
+     padding: 15px 30px;
+     margin-top: 50px;
+     box-sizing: border-box;
+     border-radius: 3px;
+
 }
-.book:hover, .join.book:hover{
-    color: #696969;
+.book:hover, .join:hover{
+    background-color: #9fe9f3;
+    color: #2b2a2a;
+
 }
 .msg h2{
     color: #052958;
 }
 .msg p{
-    color: #b3290686;
+    color: #052958;
+    font-size: 1em;
+    padding-bottom: 15px;
+
 }
 footer{
     color: #5f9ea0;
+    padding: 25px 50px;
 }
 footer a{
     color: #0659b8;
@@ -59,9 +101,15 @@ footer a:hover{
 }
 .icon{
     width: 80px;
+    padding-top: 10px
 }
 .logo{
+    height: 80px;
     width: 80px;
+    border: 5px solid #008b8b;
+    border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 15px;
 }
 #hero-img{
     width: 100%;
@@ -72,3 +120,45 @@ footer p{
 footer p a:hover{
     text-decoration: underline;
 }
+.msg{
+    background-color: #6f7364;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+#logo_link{
+    padding-top: 5px; 
+}
+    footer.social img{ padding-top: 15px;
+    }
+.card-img{
+    border: 10px solid #d9c2a3
+}
+main section img {
+    box-sizing: border-box;
+}
+#rivers-card-msg{
+    font-family:"Architects Daughter", sans-serif;
+    color: #5c7371;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#rapids-card-msg{
+    font-family:"Architects Daughter", sans-serif;
+    color: #4c5b66;
+    font-size: 45px;
+    font-weight: bolder;
+}       
+#mountains-msg{
+    font-family:"Quicksand", sans-serif;
+    color: #04538b;
+    font-size: 45px;
+    font-weight:200;
+}
+#scenery-msg{
+    font-family:"Quicksand", sans-serif;
+    color: #01121f;
+    font-size: 30px;
+    font-weight:200;
+} 
