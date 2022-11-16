@@ -1,17 +1,28 @@
-@import url(‘https://fonts.googleapis.com/css?family=Poppins’);
 nav a{
     text-align: center;
     color: black;
     text-decoration: none;
     padding: 35px;
 }
-#hero-msg h1, #hero-msg h4{
+.nav-buttons{
+    font-family:"Quicksand", sans-serif;
+    
+}
+
+#hero-msg h1, #hero-msg{
     text-align: center;
     font-family:'Poppins', sans-serif;
     font-weight: 25px;
 }
+.book{
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+}
 .button-box{
     text-align: center;
+}
+.card-img{
+    margin-top: 25px;
 }
 main section{
     text-align: center;
@@ -45,18 +56,22 @@ nav a:hover{
     font-size: 2em;
     margin-top: 10px;
 }
-h4{
-    color: #742d11;
+
+#make-memory-tag{
+    font-family:"Quicksand", sans-serif;
+    color: #b43d3d;
+    font-size: 45px;
 }
 .book, .join{
     background-color: #025555;
     color: rgb(236, 230, 230);
      text-decoration: none;
-     font-size: 20px;
+     font-family:"Bebas Neue", sans-serif ;
+     font-size: 30px;
      padding: 15px 30px;
      margin-top: 50px;
      box-sizing: border-box;
-     border-radius: 5px;
+     border-radius: 3px;
 
 }
 .book:hover, .join:hover{
@@ -93,6 +108,8 @@ footer a:hover{
     width: 80px;
     border: 5px solid #008b8b;
     border-radius: 50%;
+    margin-left: 25px;
+    margin-top: 15px;
 }
 #hero-img{
     width: 100%;
@@ -120,3 +137,28 @@ footer p a:hover{
 main section img {
     box-sizing: border-box;
 }
+#rivers-card-msg{
+    font-family:"Architects Daughter", sans-serif;
+    color: #5c7371;
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#rapids-card-msg{
+    font-family:"Architects Daughter", sans-serif;
+    color: #4c5b66;
+    font-size: 45px;
+    font-weight: bolder;
+}       
+#mountains-msg{
+    font-family:"Quicksand", sans-serif;
+    color: #04538b;
+    font-size: 45px;
+    font-weight:200;
+}
+#scenery-msg{
+    font-family:"Quicksand", sans-serif;
+    color: #01121f;
+    font-size: 30px;
+    font-weight:200;
+} 
